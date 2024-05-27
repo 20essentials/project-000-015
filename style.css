@@ -64,6 +64,7 @@ body, html {
     height: 100%;
     background-color: transparent;
     border-radius: 2rem;
+    
   }
 
   .item-003 {
@@ -118,6 +119,7 @@ body, html {
       background-color: mistyrose;
       transform: rotateX(90deg) translateY(-50%);
       transform-origin: top center;
+      padding: 2rem;
     }
 
     .top {
@@ -129,10 +131,12 @@ body, html {
 
   .main-p:hover .front {
     transform: rotateX(0deg) translateY(0);
+    
   }
 
   .main-p:hover .top {
     transform: rotateX(90deg) translateY(50%);
+    
   }
 }
 
